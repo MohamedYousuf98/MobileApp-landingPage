@@ -584,7 +584,9 @@ button {
 .navbar-brand .white-logo {
   display: none;
 }
-
+.navbar-brand img {
+  height: 70px;
+}
 .navbar-light.nav-style2 {
   background-color: #ffffff;
 }
