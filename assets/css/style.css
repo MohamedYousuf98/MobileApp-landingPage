@@ -218,12 +218,12 @@ button {
   margin-bottom: 15px;
   display: inline-block;
   font-weight: 600;
-  color: #f4732a;
+  color: #e97176;
 }
 .app-section-title h2 {
   font-size: 25px;
   font-family: "Roboto", sans-serif;
-  color: #0b1460;
+  color: #1c1c20;
   font-weight: 500;
 }
 
@@ -235,21 +235,21 @@ button {
 }
 .agency-section-title span {
   font-size: 25px;
-  color: #0b1460;
+  color: #1c1c20;
   font-family: "Karla", sans-serif;
 }
 .agency-section-title h4 {
   margin-bottom: 15px;
   font-size: 22px;
   margin-bottom: 15px;
-  color: #0b1460;
+  color: #1c1c20;
   font-family: "Karla", sans-serif;
   font-weight: 500;
 }
 .agency-section-title h2 {
   font-size: 23px;
   font-family: "Montserrat", sans-serif;
-  color: #f4732a;
+  color: #e97176;
   font-weight: 600;
 }
 
@@ -404,7 +404,7 @@ button {
   margin: -5px auto 40px auto;
 }
 .exchange-section-title span {
-  color: #0b1460;
+  color: #1c1c20;
   font-size: 25px;
   margin-bottom: 15px;
   font-family: "Roboto", sans-serif;
@@ -412,7 +412,7 @@ button {
 .exchange-section-title h2 {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
-  color: #f4732a;
+  color: #e97176;
   font-weight: 600;
 }
 .exchange-section-title.style2 h2 {
@@ -426,7 +426,9 @@ button {
 .bg-color-efedf0 {
   background-color: #efedf0;
 }
-
+.bg-color-footer {
+  background: linear-gradient(to bottom, #232932, #1c1c20);
+}
 .bg-color-f9f5f4 {
   background-color: #f9f5f4;
 }
@@ -487,19 +489,19 @@ button {
   padding-right: 30px;
 }
 .navbar .others-options a {
-  background-color: #6064e3;
+  background-color: #e97176;
   color: #ffffff;
   padding: 15px 30px;
-  border-radius: 7px;
+  border-radius: 25px;
   margin-left: 40px;
   transition: all ease 0.5s;
 }
 .navbar .others-options a:hover {
-  background-color: #0797ff;
+  background-color: #e97176;
   color: #ffffff;
 }
 .navbar .others-options.style3 a {
-  background-color: #0b1460;
+  background-color: #1c1c20;
   color: #ffffff;
 }
 .navbar .others-options.style3 a i {
@@ -509,7 +511,7 @@ button {
   padding-left: 7px;
 }
 .navbar .others-options.style3 a:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
 }
 .navbar .others-options.style4 a {
@@ -588,42 +590,41 @@ button {
   height: 55px;
 }
 .navbar-light.nav-style2 {
-  background-color: #ffffff;
+  background: linear-gradient(to bottom, #232932, #1c1c20);
 }
 .navbar-light.nav-style2 .others-options a:hover {
-  background-color: #f4732a;
   color: #ffffff;
   transition: all ease 0.5s;
 }
 .navbar-light.nav-style2 .others-options a {
-  background-color: #36234b;
+  background-color: #e97176;
   color: #ffffff;
 }
 .navbar-light.nav-style2 .navbar-nav .nav-item .nav-link:hover,
 .navbar-light.nav-style2 .navbar-nav .nav-item .nav-link:focus,
 .navbar-light.nav-style2 .navbar-nav .nav-item .nav-link.active {
-  color: #f4732a;
+  color: #e97176;
 }
 .navbar-light.nav-style2 .navbar-nav .nav-item.active .nav-link {
-  color: #f4732a;
+  color: #e97176;
 }
 .navbar-light.nav-style2.is-sticky .navbar-nav .nav-item .nav-link:hover,
 .navbar-light.nav-style2.is-sticky .navbar-nav .nav-item .nav-link:focus,
 .navbar-light.nav-style2.is-sticky .navbar-nav .nav-item .nav-link.active {
-  color: #f4732a;
+  color: #e97176;
 }
 .navbar-light.nav-style5 .navbar-nav .nav-item .nav-link:hover,
 .navbar-light.nav-style5 .navbar-nav .nav-item .nav-link:focus,
 .navbar-light.nav-style5 .navbar-nav .nav-item .nav-link.active {
-  color: #f4732a;
+  color: #e97176;
 }
 .navbar-light.nav-style5 .navbar-nav .nav-item.active .nav-link {
-  color: #f4732a;
+  color: #e97176;
 }
 .navbar-light.nav-style5.is-sticky .navbar-nav .nav-item .nav-link:hover,
 .navbar-light.nav-style5.is-sticky .navbar-nav .nav-item .nav-link:focus,
 .navbar-light.nav-style5.is-sticky .navbar-nav .nav-item .nav-link.active {
-  color: #f4732a;
+  color: #e97176;
 }
 .navbar-light.nav-style3 {
   background-color: #ffffff;
@@ -645,7 +646,7 @@ button {
   background-color: transparent;
 }
 .navbar-light.nav-style4 .others-options a {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
   transition: all ease 0.5s;
 }
@@ -681,7 +682,7 @@ button {
   padding-left: 20px;
 }
 .navbar-light .navbar-nav .nav-item .nav-link {
-  color: #19191b;
+  color: #ffffff;
   padding: 0;
   position: relative;
   font-size: 15px;
@@ -707,7 +708,7 @@ button {
   visibility: visible;
 }
 .navbar-light.is-sticky .navbar-nav .nav-item .nav-link {
-  color: #19191b;
+  color: #ffffff;
 }
 .navbar-light.is-sticky .navbar-nav .nav-item .nav-link:hover,
 .navbar-light.is-sticky .navbar-nav .nav-item .nav-link:focus,
@@ -728,15 +729,15 @@ button {
 .navbar-light.nav-style7 .navbar-nav .nav-item .nav-link:hover,
 .navbar-light.nav-style7 .navbar-nav .nav-item .nav-link:focus,
 .navbar-light.nav-style7 .navbar-nav .nav-item .nav-link.active {
-  color: #dd131a;
+  color: #e97176;
 }
 .navbar-light.nav-style7 .navbar-nav .nav-item.active .nav-link {
-  color: #dd131a;
+  color: #e97176;
 }
 .navbar-light.nav-style7.is-sticky .navbar-nav .nav-item .nav-link:hover,
 .navbar-light.nav-style7.is-sticky .navbar-nav .nav-item .nav-link:focus,
 .navbar-light.nav-style7.is-sticky .navbar-nav .nav-item .nav-link.active {
-  color: #dd131a;
+  color: #e97176;
 }
 .navbar-light.nav-style8 {
   background-color: transparent;
@@ -1173,30 +1174,30 @@ button {
 }
 
 .app-default-btn {
-  background-color: #36234b;
+  background-color: #1c1c20;
   color: #ffffff;
   padding: 15px 30px;
   transition: all ease 0.5s;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .app-default-btn:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
 }
 .app-default-btn.style2 {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
 }
 .app-default-btn.style2:hover {
   background-color: #ffffff;
-  color: #f4732a;
+  color: #e97176;
 }
 .app-default-btn.style3 {
   background-color: #ffffff;
-  color: #f4732a;
+  color: #e97176;
 }
 .app-default-btn.style3:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
 }
 .app-default-btn.style3 {
@@ -1204,25 +1205,25 @@ button {
   padding: 15 30pxpx;
   border: 1px solid #efedf0;
   text-align: center;
-  color: #f4732a;
+  color: #e97176;
   transition: all ease 0.5s;
   border-radius: 10px;
 }
 .app-default-btn.style3:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border-color: #f4732a;
+  border-color: #e97176;
 }
 
 .agency-default-btn {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
   padding: 15px 30px;
   transition: all ease 0.5s;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .agency-default-btn:hover {
-  background-color: #0b1460;
+  background-color: #1c1c20;
   color: #ffffff;
 }
 .agency-default-btn i {
@@ -1232,31 +1233,31 @@ button {
 }
 .agency-default-btn.style2 {
   background-color: transparent;
-  border: 1px solid #0b1460;
-  color: #0b1460;
+  border: 1px solid #1c1c20;
+  color: #1c1c20;
 }
 .agency-default-btn.style2:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border-color: #f4732a;
+  border-color: #e97176;
 }
 .agency-default-btn.style3 {
-  background-color: #0b1460;
+  background-color: #1c1c20;
   color: #ffffff;
 }
 .agency-default-btn.style3:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
 }
 .agency-default-btn.style4 {
   background-color: transparent;
   border: 1px solid #eeeeee;
-  color: #f4732a;
+  color: #e97176;
 }
 .agency-default-btn.style4:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border-color: #f4732a;
+  border-color: #e97176;
 }
 
 .consulting-default-btn {
@@ -1591,12 +1592,12 @@ button {
   margin-bottom: 15px;
 }
 .app-banner-content span {
-  color: #f4732a;
+  color: #e97176;
   margin-bottom: 15px;
   display: inline-block;
 }
 .app-banner-content h1 {
-  font-size: 50px;
+  font-size: 40px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
   margin-bottom: 20px;
@@ -1614,8 +1615,12 @@ button {
   display: inline-block;
   margin-right: 15px;
 }
+.download-links p {
+  color: #ffffff;
+}
+
 .app-banner-content .download-links ul li img {
-  border-radius: 12px;
+  border-radius: 50px;
 }
 
 /*Partner Style
@@ -1693,7 +1698,7 @@ button {
   height: 240px;
 }
 .single-app-features-box .features-content i {
-  color: #f4732a;
+  color: #e97176;
   font-size: 34px;
   margin-bottom: 18px;
   display: inline-block;
@@ -1703,7 +1708,7 @@ button {
   font-family: "Roboto", sans-serif;
   margin-bottom: 13px;
   font-size: 20px;
-  color: #0b1460;
+  color: #1c1c20;
 }
 .single-app-features-box:hover {
   transform: translateY(-10px);
@@ -2370,6 +2375,8 @@ button {
 }
 .logo-area p {
   margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 17px;
 }
 .logo-area .social-links ul {
   margin-bottom: 0;
@@ -2404,7 +2411,7 @@ button {
 }
 .logo-area.style2 .social-links ul li a:hover {
   color: #ffffff;
-  background-color: #f4732a;
+  background-color: #e97176;
 }
 .logo-area.style3 .social-links ul li a:hover {
   background-color: #3561e4;
@@ -2488,6 +2495,7 @@ button {
 .footer-widjet h3 {
   font-size: 22px;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 .footer-widjet .link-list ul {
   padding-left: 0;
@@ -2508,6 +2516,7 @@ button {
 .footer-widjet .link-list ul li a {
   color: #555555;
   transition: all ease 0.5s;
+  color: #ffffff;
 }
 .footer-widjet .link-list ul li a i {
   color: #0797ff;
@@ -2516,10 +2525,10 @@ button {
   color: #0797ff;
 }
 .footer-widjet.style2 .link-list ul li i {
-  color: #f4732a;
+  color: #e97176;
 }
 .footer-widjet.style2 .link-list ul li a:hover {
-  color: #f4732a;
+  color: #e97176;
 }
 .footer-widjet.style3 h3 {
   font-family: "Mulish", sans-serif;
@@ -2581,6 +2590,7 @@ button {
   font-size: 22px;
   margin-bottom: 30px;
   font-family: "Mulish", sans-serif;
+  color: #ffffff;
 }
 .get-in-touch ul {
   padding-left: 0;
@@ -2591,17 +2601,18 @@ button {
   list-style-type: none;
   position: relative;
   padding-left: 25px;
+  color: #ffffff;
 }
 .get-in-touch ul li a {
   color: #555555;
   transition: all ease 0.5s;
 }
 .get-in-touch ul li a:hover {
-  color: #f4732a;
+  color: #e97176;
 }
 .get-in-touch ul li i {
   position: absolute;
-  color: #f4732a;
+  color: #e97176;
   font-size: 16px;
   left: 0;
   top: 2px;
@@ -2729,7 +2740,7 @@ button {
   color: #0797ff;
 }
 .copy-right-area.style3 p a {
-  color: #f4732a;
+  color: #e97176;
 }
 .copy-right-area.style4 p a {
   color: #3561e4;
@@ -2821,7 +2832,7 @@ Go To Top Style
   transition: 0.9s;
 }
 .go-top.style2 {
-  background-color: #f4732a;
+  background-color: #e97176;
 }
 .go-top.style3 {
   background-color: #3561e4;
@@ -2869,7 +2880,7 @@ Go To Top Style
   height: 100%;
   border-radius: 100%;
   z-index: -1;
-  background-color: #0797ff;
+  background-color: #1c1c20;
   opacity: 0;
   visibility: hidden;
   transition: 0.5s;
@@ -2923,7 +2934,7 @@ Go To Top Style
 /*Acquaintance Style
 ======================================================*/
 .acquaintance-content .acquaintance-title span {
-  color: #f4732a;
+  color: #e97176;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -2950,7 +2961,7 @@ Go To Top Style
 }
 .acquaintance-content .acquaintance-list ul li .icon {
   color: #ffffff;
-  background-color: #f4732a;
+  background-color: #e97176;
   text-align: center;
   height: 45px;
   width: 45px;
@@ -2973,7 +2984,7 @@ Go To Top Style
 /*Design Style
 ======================================================*/
 .design-content .design-title span {
-  color: #f4732a;
+  color: #e97176;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -3038,14 +3049,14 @@ Go To Top Style
   font-weight: 500;
 }
 .plans-switcher .toggler.toggler--is-active {
-  color: #f4732a;
+  color: #e97176;
 }
 .plans-switcher .toggle {
   position: relative;
   width: 70px;
   height: 35px;
   border-radius: 100px;
-  background-color: #f4732a;
+  background-color: #e97176;
   overflow: hidden;
 }
 .plans-switcher .toggle .b {
@@ -3096,7 +3107,7 @@ Go To Top Style
 }
 .app-single-pricing-card .pricing-top-content .icon {
   background-color: #efedf0;
-  color: #f4732a;
+  color: #e97176;
   font-size: 35px;
   height: 67px;
   width: 70px;
@@ -3133,7 +3144,7 @@ Go To Top Style
   margin-bottom: 12px;
 }
 .app-single-pricing-card .pricing-list ul li i {
-  color: #f4732a;
+  color: #e97176;
   position: absolute;
   left: 0;
 }
@@ -3141,14 +3152,14 @@ Go To Top Style
   margin-bottom: 0;
 }
 .app-single-pricing-card.active .app-default-btn {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
 }
 
 /*Reviews Style
 ======================================================*/
 .app-reviews-section span {
-  color: #f4732a;
+  color: #e97176;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -3171,7 +3182,7 @@ Go To Top Style
 }
 .app-reviews-slider.owl-theme .owl-dots .owl-dot.active span,
 .app-reviews-slider.owl-theme .owl-dots .owl-dot:hover span {
-  background: #f4732a;
+  background: #e97176;
 }
 
 .app-reviews-box {
@@ -3219,7 +3230,7 @@ Go To Top Style
   padding-right: 50px;
 }
 .app-reviews-img .video-player {
-  background-color: #f4732a;
+  background-color: #e97176;
   padding: 10px;
   padding-right: 20px;
   border-radius: 40px;
@@ -3234,7 +3245,7 @@ Go To Top Style
   transition: all ease 0.5s;
 }
 .app-reviews-img .video-player a i {
-  color: #f4732a;
+  color: #e97176;
   background-color: #ffffff;
   height: 50px;
   width: 50px;
@@ -3316,7 +3327,7 @@ Go To Top Style
   margin-top: 30px;
 }
 .download-content .download-title span {
-  color: #f4732a;
+  color: #e97176;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -3339,7 +3350,7 @@ Go To Top Style
   margin-right: 15px;
 }
 .download-content .download-links ul li img {
-  border-radius: 12px;
+  border-radius: 50px;
 }
 
 /*Team Style
@@ -3384,9 +3395,9 @@ Go To Top Style
   transition: all ease 0.5s;
 }
 .single-team-card .team-content .social-links ul li a:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border-color: #f4732a;
+  border-color: #e97176;
   transform: translateY(-7px);
 }
 .single-team-card .team-content .social-links ul li:last-child {
@@ -3436,7 +3447,7 @@ Go To Top Style
 }
 .watch-video-area .video-icon .icon a {
   font-size: 24px;
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
   text-align: center;
   height: 60px;
@@ -3456,7 +3467,7 @@ Go To Top Style
 }
 .watch-video-area .video-icon .icon a:hover {
   background-color: #ffffff;
-  color: #f4732a;
+  color: #e97176;
 }
 .watch-video-area .video-icon .icon a::before {
   position: absolute;
@@ -3506,7 +3517,7 @@ Go To Top Style
 }
 .choose-slider.owl-theme .owl-dots .owl-dot.active span,
 .choose-slider.owl-theme .owl-dots .owl-dot:hover span {
-  background: #f4732a;
+  background: #e97176;
 }
 .choose-slider.owl-theme .owl-nav [class*="owl-"] {
   position: absolute;
@@ -3538,9 +3549,9 @@ Go To Top Style
   top: -2px;
 }
 .choose-slider.owl-theme .owl-nav [class*="owl-"]:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border: 1px solid #f4732a;
+  border: 1px solid #e97176;
 }
 
 /*More With Us Style
@@ -3555,7 +3566,7 @@ Go To Top Style
   border-radius: 20px;
 }
 .more-us-content .more-us-title span {
-  color: #f4732a;
+  color: #e97176;
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -3616,7 +3627,7 @@ Go To Top Style
 }
 .app-single-blog-card .blog-content .date-and-comment ul li i {
   position: absolute;
-  color: #f4732a;
+  color: #e97176;
   left: 0;
   top: 2px;
 }
@@ -3634,12 +3645,18 @@ Go To Top Style
   transition: all ease 0.5s;
 }
 .app-single-blog-card .blog-content h3 a:hover {
-  color: #f4732a;
+  color: #e97176;
 }
 .app-single-blog-card:hover .blog-img img {
   transform: scale(1.2);
 }
-
+.app-copy-right-area-footer {
+  background: #1c1c20;
+}
+.app-footer-area {
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
 .app-copy-right-area .container {
   border-top: 1px solid #dad9d9;
   padding-top: 20px;
@@ -3661,7 +3678,7 @@ Go To Top Style
 }
 
 .app-copy-right-area p a {
-  color: #f4732a;
+  color: #e97176;
 }
 
 /*Agency Demo Style
@@ -3693,7 +3710,7 @@ Go To Top Style
 }
 
 .agency-banner-content span {
-  color: #f4732a;
+  color: #e97176;
   margin-bottom: 10px;
   font-family: "Karla", sans-serif;
   display: inline-block;
@@ -3701,7 +3718,7 @@ Go To Top Style
 .agency-banner-content h1 {
   font-size: 72px;
   font-family: "Montserrat", sans-serif;
-  color: #0b1460;
+  color: #1c1c20;
   font-weight: 800;
   margin-bottom: 20px;
 }
@@ -3719,7 +3736,7 @@ Go To Top Style
 .trasted-content .trasted-text h3 {
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
-  color: #0b1460;
+  color: #1c1c20;
 }
 
 .trasted-slider.owl-carousel .owl-item img {
@@ -3745,7 +3762,7 @@ Go To Top Style
   text-align: center;
   background-color: #f9f5f4;
   border-radius: 100%;
-  color: #f4732a;
+  color: #e97176;
   font-size: 45px;
   margin: auto;
   margin-bottom: 20px;
@@ -3753,7 +3770,7 @@ Go To Top Style
 }
 .agency-single-features-card h3 {
   font-size: 22px;
-  color: #0b1460;
+  color: #1c1c20;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
 }
@@ -3762,7 +3779,7 @@ Go To Top Style
   margin-bottom: 13px;
 }
 .agency-single-features-card .btn {
-  color: #f4732a;
+  color: #e97176;
   position: relative;
   padding-right: 25px;
 }
@@ -3776,7 +3793,7 @@ Go To Top Style
 }
 .agency-single-features-card:hover .icon {
   transform: rotate(30deg);
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
 }
 
@@ -3802,7 +3819,7 @@ Go To Top Style
 /*About Style
 ======================================================*/
 .agency-about-content .agency-about-title span {
-  color: #f4732a;
+  color: #e97176;
   display: inline-block;
   margin-bottom: 10px;
   font-family: "Karla", sans-serif;
@@ -3811,7 +3828,7 @@ Go To Top Style
   font-size: 40px;
   margin-bottom: 25px;
   font-family: "Montserrat", sans-serif;
-  color: #0b1460;
+  color: #1c1c20;
 }
 .agency-about-content .agency-text {
   margin-bottom: 30px;
@@ -3878,14 +3895,14 @@ Go To Top Style
   text-align: center;
   background-color: #f9f5f4;
   border-radius: 100%;
-  color: #f4732a;
+  color: #e97176;
   font-size: 30px;
   margin-bottom: 20px;
   transition: all ease 0.5s;
 }
 .agency-single-services-card .services-content h3 {
   font-size: 22px;
-  color: #0b1460;
+  color: #1c1c20;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 15px;
 }
@@ -3894,7 +3911,7 @@ Go To Top Style
   margin-bottom: 15px;
 }
 .agency-single-services-card .services-content .read-btn {
-  color: #f4732a;
+  color: #e97176;
   position: relative;
   padding-right: 25px;
 }
@@ -3940,9 +3957,9 @@ Go To Top Style
   top: -2px;
 }
 .services-slider.owl-theme .owl-nav [class*="owl-"]:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border: 1px solid #f4732a;
+  border: 1px solid #e97176;
 }
 .app-blog-area {
   margin-top: 80px;
@@ -3964,7 +3981,7 @@ Go To Top Style
 }
 
 .agency-choose-content .agency-choose-title span {
-  color: #f4732a;
+  color: #e97176;
   display: inline-block;
   margin-bottom: 10px;
   font-family: "Karla", sans-serif;
@@ -3973,7 +3990,7 @@ Go To Top Style
   font-size: 40px;
   margin-bottom: 20px;
   font-family: "Montserrat", sans-serif;
-  color: #0b1460;
+  color: #1c1c20;
 }
 .agency-choose-content .agency-choose-title p {
   margin-bottom: 25px;
@@ -3994,14 +4011,14 @@ Go To Top Style
 }
 .agency-choose-content .choose-list ul li i {
   position: absolute;
-  color: #f4732a;
+  color: #e97176;
   font-size: 22px;
   top: 1px;
   left: 0;
 }
 .agency-choose-content .choose-list ul li h3 {
   font-size: 22px;
-  color: #0b1460;
+  color: #1c1c20;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 10px;
 }
@@ -4033,7 +4050,7 @@ Go To Top Style
 .portfolio-card .portfolio-img .caption-one h3 {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  color: #0b1460;
+  color: #1c1c20;
 }
 .portfolio-card .portfolio-img .caption-two {
   background-color: #f9f5f4;
@@ -4050,7 +4067,7 @@ Go To Top Style
 .portfolio-card .portfolio-img .caption-two h3 {
   font-size: 18px;
   font-family: "Montserrat", sans-serif;
-  color: #0b1460;
+  color: #1c1c20;
   margin-bottom: 15px;
 }
 .portfolio-card .portfolio-img .caption-two p {
@@ -4063,7 +4080,7 @@ Go To Top Style
   text-overflow: ellipsis;
 }
 .portfolio-card .portfolio-img .caption-two a {
-  color: #f4732a;
+  color: #e97176;
 }
 .portfolio-card .portfolio-img .caption-two a i {
   position: relative;
@@ -4098,9 +4115,9 @@ Go To Top Style
   top: -2px;
 }
 .portfolio-slider.owl-theme .owl-nav [class*="owl-"]:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border: 1px solid #f4732a;
+  border: 1px solid #e97176;
 }
 
 .active.center .portfolio-card .portfolio-img .caption-one {
@@ -4141,7 +4158,7 @@ Go To Top Style
 .agency-intro-video-area .agrncy-video .icon a {
   font-size: 24px;
   background-color: #ffffff;
-  color: #f4732a;
+  color: #e97176;
   text-align: center;
   height: 60px;
   width: 60px;
@@ -4155,7 +4172,7 @@ Go To Top Style
   top: 1px;
 }
 .agency-intro-video-area .agrncy-video .icon a:hover {
-  background-color: #0b1460;
+  background-color: #1c1c20;
   color: #ffffff;
 }
 .agency-intro-video-area .agrncy-video .icon::before {
@@ -4236,7 +4253,7 @@ Go To Top Style
 .agency-counter-box .counter-content h1 {
   font-size: 48px;
   font-family: "Montserrat", sans-serif;
-  color: #f4732a;
+  color: #e97176;
   margin-bottom: 5px;
 }
 .agency-counter-box .counter-content p {
@@ -4288,7 +4305,7 @@ Go To Top Style
 .agency-testimonial-card .testimonial-content h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
-  color: #0b1460;
+  color: #1c1c20;
   margin-bottom: 10px;
 }
 .agency-testimonial-card .testimonial-content span {
@@ -4324,9 +4341,9 @@ Go To Top Style
   top: -2px;
 }
 .agency-testimonial-slider.owl-theme .owl-nav [class*="owl-"]:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border: 1px solid #f4732a;
+  border: 1px solid #e97176;
 }
 
 .agency-testimonial-area {
@@ -4399,14 +4416,14 @@ Go To Top Style
 }
 .agency-pricing-tabs .tab .tabs li a:hover,
 .agency-pricing-tabs .tab .tabs li a:focus {
-  background: #f4732a;
+  background: #e97176;
   color: #ffffff;
-  border-color: #f4732a;
+  border-color: #e97176;
 }
 .agency-pricing-tabs .tab .tabs li.current a {
-  background: #f4732a;
+  background: #e97176;
   color: #ffffff;
-  border-color: #f4732a;
+  border-color: #e97176;
 }
 .agency-pricing-tabs .tabs_item {
   display: none;
@@ -4429,7 +4446,7 @@ Go To Top Style
 }
 .agency-pricing-box .pricing-content h1 {
   font-size: 48px;
-  color: #0b1460;
+  color: #1c1c20;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 20px;
   transition: all ease 0.5s;
@@ -4467,7 +4484,7 @@ Go To Top Style
   font-family: "Karla", sans-serif;
 }
 .agency-pricing-box .pricing-content .pricing-list ul li i {
-  color: #f4732a;
+  color: #e97176;
   position: absolute;
   left: 0;
   transition: all ease 0.5s;
@@ -4485,7 +4502,7 @@ Go To Top Style
 }
 .agency-pricing-box:hover,
 .agency-pricing-box.active {
-  background-color: #0b1460;
+  background-color: #1c1c20;
   transform: translateY(-30px);
 }
 .agency-pricing-box:hover .pricing-content h1,
@@ -4510,7 +4527,7 @@ Go To Top Style
 }
 .agency-pricing-box:hover .pricing-content .pricing-list ul li i,
 .agency-pricing-box.active .pricing-content .pricing-list ul li i {
-  color: #f4732a;
+  color: #e97176;
 }
 .agency-pricing-box:hover
   .pricing-content
@@ -4532,16 +4549,16 @@ Go To Top Style
 }
 .agency-pricing-box:hover .pricing-content .agency-default-btn,
 .agency-pricing-box.active .pricing-content .agency-default-btn {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
-  border-color: #f4732a;
+  border-color: #e97176;
 }
 .agency-pricing-box .popular {
   position: absolute;
   top: 15px;
   right: 15px;
   background-color: #ffffff;
-  color: #f4732a;
+  color: #e97176;
   border-radius: 10px;
   padding: 5px 10px;
   font-size: 12px;
@@ -4577,7 +4594,7 @@ Go To Top Style
   font-size: 22px;
   margin-bottom: 8px;
   font-family: "Montserrat", sans-serif;
-  color: #0b1460;
+  color: #1c1c20;
 }
 .agency-team-card .team-content .team-caption p {
   margin-bottom: 20px;
@@ -4604,7 +4621,7 @@ Go To Top Style
   transition: all ease 0.5s;
 }
 .agency-team-card .team-content .team-caption .social-links ul li a:hover {
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
   transform: translateY(-5px);
 }
@@ -4620,7 +4637,7 @@ Go To Top Style
 }
 .agency-team-slider.owl-theme .owl-dots .owl-dot.active span,
 .agency-team-slider.owl-theme .owl-dots .owl-dot:hover span {
-  background: #f4732a;
+  background: #e97176;
   width: 30px;
 }
 
@@ -4646,7 +4663,7 @@ Go To Top Style
 /*Join Us Style
 ======================================================*/
 .join-us-area .container {
-  background-color: #0b1460;
+  background-color: #1c1c20;
   position: relative;
   z-index: 1;
   border-radius: 10px;
@@ -4720,7 +4737,7 @@ Go To Top Style
   position: absolute;
   left: 15px;
   top: 15px;
-  background-color: #f4732a;
+  background-color: #e97176;
   color: #ffffff;
   font-family: "Karla", sans-serif;
   padding: 7px 10px;
@@ -4736,11 +4753,11 @@ Go To Top Style
   line-height: 1.5;
 }
 .agency-blog-card .blog-content h3 a {
-  color: #0b1460;
+  color: #1c1c20;
   transition: all ease 0.5s;
 }
 .agency-blog-card .blog-content h3 a:hover {
-  color: #f4732a;
+  color: #e97176;
 }
 .agency-blog-card .blog-content p {
   margin-bottom: 15px;
@@ -4764,13 +4781,13 @@ Go To Top Style
   transition: all ease 0.5s;
 }
 .agency-blog-card .blog-content .list li a:hover {
-  color: #f4732a;
+  color: #e97176;
 }
 .agency-blog-card .blog-content .list li i {
   position: absolute;
   left: 0;
   top: 2px;
-  color: #f4732a;
+  color: #e97176;
 }
 .agency-blog-card:hover .blog-img img {
   transform: scale(1.2) rotate(7deg);
@@ -4826,7 +4843,7 @@ Go To Top Style
   width: 100%;
   left: 0;
   top: 0;
-  background-color: #0b1460;
+  background-color: #1c1c20;
   opacity: 0.4;
   z-index: 1;
   transform: scaleX(0);
@@ -10519,7 +10536,7 @@ Section Title CSS
   -webkit-box-pack: center;
   text-transform: uppercase;
   -webkit-box-align: center;
-  background-color: #f4732a;
+  background-color: #e97176;
   transition: padding-right 0.3s ease 0s;
   font-size: 14px;
   font-weight: 500;
