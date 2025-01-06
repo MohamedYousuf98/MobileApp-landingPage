@@ -228,7 +228,7 @@ button {
   color: #181c27;
 }
 .app-section-title h5 {
-  line-height: 1.4;
+  line-height: 1.7;
 }
 
 .agency-section-title {
@@ -3889,9 +3889,10 @@ Go To Top Style
   position: relative;
   z-index: 1;
   margin-bottom: 40px;
-  height: 450px;
+  height: 420px;
   display: flex;
   align-items: center;
+  border-radius: 15px;
 }
 .agency-single-services-card .services-content {
   padding: 30px;
@@ -3918,6 +3919,11 @@ Go To Top Style
 .agency-single-services-card .services-content p {
   font-family: "Karla", sans-serif;
   margin-bottom: 15px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .agency-single-services-card .services-content .read-btn {
   color: #e97176;
