@@ -11058,3 +11058,24 @@ Section Title CSS
 a {
   text-decoration: none !important;
 }
+.error-container,
+.modal-error-container {
+  width: 100%;
+  background: #ea7176;
+  color: #fff;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.success-container,
+.modal-success-container {
+  width: 100%;
+  background: #4caf50b5;
+  color: #fff;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
