@@ -341,7 +341,9 @@
   }
   .single-app-features-box .features-content {
     padding: 20px;
+    height: 200px;
   }
+
   .single-app-features-box .features-content i {
     margin-bottom: 15px;
   }
@@ -356,7 +358,7 @@
     margin-bottom: 20px;
   }
   .acquaintance-content .acquaintance-title h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 15px;
   }
   .acquaintance-content .acquaintance-list ul li {
@@ -369,7 +371,7 @@
     margin-bottom: 30px;
   }
   .design-content .design-title h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .design-image .doller {
@@ -400,9 +402,7 @@
   .app-reviews-box .clients-profile h3 {
     font-size: 20px;
   }
-  .app-reviews-img {
-    padding-right: 0px;
-  }
+
   .app-reviews-img .video-player {
     display: none;
   }
@@ -5393,7 +5393,7 @@
     padding-top: 7px;
   }
   .navbar-light .navbar-nav .nav-item .nav-link {
-    color: #19191b;
+    color: #ffffff;
   }
   .navbar-light .navbar-nav .nav-item .nav-link:hover,
   .navbar-light .navbar-nav .nav-item .nav-link:focus,

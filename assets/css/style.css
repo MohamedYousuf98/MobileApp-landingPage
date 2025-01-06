@@ -214,7 +214,7 @@ button {
   position: relative;
 }
 .app-section-title span {
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
@@ -242,7 +242,7 @@ button {
   position: relative;
 }
 .agency-section-title span {
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
@@ -259,6 +259,7 @@ button {
   color: #181c27;
   font-weight: 500;
   font-size: 24px;
+  font-family: "Mulish", sans-serif;
 }
 
 .consulting-section-title {
@@ -413,7 +414,7 @@ button {
   margin: -5px auto 40px auto;
 }
 .exchange-section-title span {
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
@@ -1572,9 +1573,11 @@ button {
 .app-banner-area {
   background-image: url(../images/banner/banner-bg-2.png);
   background: linear-gradient(to bottom, #232932, #1c1c20);
-  padding-top: 100px;
+  padding-top: 60px;
   position: relative;
+  padding-top: 20px;
 }
+
 .app-banner-area .container-fluid {
   max-width: 1540px;
   padding-left: 30px;
@@ -1708,6 +1711,11 @@ button {
   z-index: 2;
   border-radius: 10px;
   height: 240px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .single-app-features-box .features-content i {
   color: #e97176;
@@ -3883,6 +3891,7 @@ Go To Top Style
 
 .agency-about-area {
   position: relative;
+  margin-bottom: 85px;
 }
 .agency-about-area .about-shape-3 {
   position: absolute;
@@ -9018,6 +9027,7 @@ Go To Top Style
   justify-content: center;
   text-align: center;
   padding-bottom: 80px;
+  padding-top: 60px;
 }
 /*Create And Sell Style
 ======================================================*/
@@ -10864,9 +10874,7 @@ Section Title CSS
   border: 1px solid #ddd;
   border-radius: 5px;
 }
-textarea {
-  height: 150px;
-}
+
 .submit-button {
   background-color: #e97176;
   color: #fff;
@@ -10876,10 +10884,174 @@ textarea {
   cursor: pointer;
 }
 .submit-button:hover {
-  background-color: #e97176;
+  background: linear-gradient(to bottom, #232932, #1c1c20);
 }
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
   border: 1px solid #ddd;
+}
+/*------------- modal  ------------------*/
+.contact_us_section {
+  background-color: #fafafa;
+  padding: 70px 0 65px 0;
+}
+
+.contact_us_section .section_header {
+  margin-bottom: 71px;
+}
+
+.contact_us_section .form_wrapper_style {
+  background-color: #fff;
+  width: 100%;
+}
+
+.contact_us_section .form_wrapper_style .form-group {
+  border: 1px solid #e8e8e8;
+}
+
+.contact_us_section .form_wrapper_style .form-group .icon {
+  border-right: 1px solid #acacac;
+  padding-right: 10px;
+}
+
+.contact_us_section .form_wrapper_style .form-group i {
+  color: #e97176;
+}
+
+.contact_us_section
+  .form_wrapper_style
+  .form-group
+  .form-control::-moz-placeholder {
+  color: #919191;
+}
+
+.contact_us_section .form_wrapper_style .form-group .form-control::placeholder {
+  color: #919191;
+}
+
+.contact_us_section .form_wrapper_style .form-group .nice_select {
+  color: #919191;
+}
+
+.contact_us_section .form_wrapper_style .form-group .nice_select .list .option {
+  color: #000;
+}
+
+.contact_us_section .form_wrapper_style .textarea_form_group {
+  height: 120px;
+}
+
+.contact_us_section .form_wrapper_style .btn_submit .btn {
+  border-color: #e97176;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact_us_section .form_wrapper_style .btn_submit .btn:hover {
+  border-color: #1c1c20;
+}
+
+.form_wrapper_style {
+  background-color: #232932;
+  padding: 37px 45px;
+  border-radius: 30px;
+  width: 90%;
+  margin-left: auto;
+}
+
+.form_wrapper_style h5 {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: helMedium;
+  margin-bottom: 50px;
+}
+
+.form_wrapper_style form .form-group {
+  border: 1px solid #ffffff;
+  border-radius: 27px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  margin-bottom: 25px;
+}
+
+.form_wrapper_style form .form-group i {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding-right: 16px;
+  margin-top: 3px;
+  border-right: 1px solid rgba(244, 244, 244, 0.4235294118);
+}
+
+.form_wrapper_style form .form-group .form-control,
+.form_wrapper_style form .form-group .nice_select {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  border-radius: 0;
+  height: 100%;
+}
+
+.form_wrapper_style form .form-group .form-control::-moz-placeholder,
+.form_wrapper_style form .form-group .nice_select::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+}
+
+.form_wrapper_style form .form-group .form-control::placeholder,
+.form_wrapper_style form .form-group .nice_select::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+}
+
+.form_wrapper_style form .form-group .nice_select {
+  width: 100%;
+  float: none;
+}
+
+.form_wrapper_style form .form-group .nice_select .list {
+  width: 100%;
+}
+
+.form_wrapper_style form .form-group textarea.form-control {
+  border-left: 0;
+  resize: none;
+}
+
+.form_wrapper_style form .textarea_form_group {
+  border-radius: 15px;
+  height: 100px;
+}
+
+.form_wrapper_style form .btn_submit {
+  text-align: right;
+}
+
+.form_wrapper_style form .btn_submit .btn {
+  background-color: #e97176;
+  border-radius: 45px;
+  padding: 16px;
+  width: 220px;
+  max-width: 100%;
+}
+
+.form_wrapper_style form .btn_submit .btn span {
+  color: #fff;
+  margin-left: 12px;
+  font-family: helMedium;
+}
+
+.form_wrapper_style .iti__selected-flag {
+  padding: 0;
+  border-right: 1px solid #707070;
+  padding-right: 5px;
+  background-color: transparent;
+}
+
+.form_wrapper_style
+  .iti--show-selected-dial-code.iti--show-flags
+  .iti__selected-dial-code {
+  color: #000;
+  font-size: 0.9rem;
 }
