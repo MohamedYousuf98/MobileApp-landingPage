@@ -3982,7 +3982,7 @@ Go To Top Style
   transition: all ease 0.5s;
   font-size: 16px;
   position: relative;
-  right: 320px;
+  text-align: center;
 }
 .services-slider.owl-theme .owl-nav [class*="owl-"] i {
   position: relative;
