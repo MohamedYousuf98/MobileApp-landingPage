@@ -1,6 +1,24 @@
 (function ($) {
   "use strict";
 
+  // Popup
+  document
+    .getElementById("getQuoteButton")
+    .addEventListener("click", function () {
+      document.getElementById("quoteForm").style.display = "block";
+    });
+
+  document.getElementById("closeForm").addEventListener("click", function () {
+    document.getElementById("quoteForm").style.display = "none";
+  });
+
+  window.addEventListener("click", function (event) {
+    const form = document.getElementById("quoteForm");
+    if (event.target === form) {
+      form.style.display = "none";
+    }
+  });
+
   // Header Sticky
   $(window).on("scroll", function () {
     if ($(this).scrollTop() > 120) {

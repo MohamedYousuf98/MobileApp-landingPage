@@ -1477,6 +1477,8 @@ button {
   top: 3px;
 }
 
+
+
 /*Banner Style
 ======================================================*/
 .sass-Banner-area {
@@ -9008,7 +9010,18 @@ Go To Top Style
 .live-action-slider.owl-theme .owl-nav [class*="owl-"]:hover i {
   color: #ffffff;
 }
+.app-banner-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.app-banner-img img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 80px;
 
+}
 /*Create And Sell Style
 ======================================================*/
 .creat-and-sell-card {
@@ -10785,3 +10798,95 @@ Section Title CSS
   opacity: 1;
   visibility: visible;
 } /*# sourceMappingURL=style.css.map */
+
+
+
+.quote-button {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.quote-button {
+  background-color: #e97176;
+  color: #fff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+.quote-button:hover {
+  background-color: #000;
+  color: #fff; 
+}
+
+
+/* Popup Form */
+.popup-form {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+}
+.popup-content {
+  background: #fff;
+  width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 35px;
+  cursor: pointer;
+}
+.popup-content h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+textarea {
+ 
+  height: 150px;
+}
+.submit-button {
+  background-color: #e97176;
+  color: #000;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #e97176;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none; 
+  border: 1px solid #ddd; 
+}
