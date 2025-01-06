@@ -101,7 +101,7 @@
         items: 3,
       },
       1200: {
-        items: 5,
+        items: 5.3,
       },
     },
   });
@@ -345,9 +345,8 @@
     margin: 20,
     nav: false,
     dots: true,
-    autoplay: true,
+    autoplay: false,
     smartSpeed: 1000,
-    autoplayHoverPause: true,
     responsive: {
       0: {
         items: 1,
@@ -356,10 +355,10 @@
         items: 2,
       },
       992: {
-        items: 3,
+        items: 2,
       },
       1200: {
-        items: 3,
+        items: 2,
       },
     },
   });
@@ -605,6 +604,7 @@
     margin: 15,
     nav: false,
     dots: false,
+    center: true,
     autoplay: true,
     autoplayTimeout: 2000,
     smartSpeed: 1000,
@@ -617,10 +617,10 @@
         items: 4,
       },
       992: {
-        items: 5,
+        items: 5.5,
       },
       1200: {
-        items: 5,
+        items: 5.5,
       },
     },
   });
