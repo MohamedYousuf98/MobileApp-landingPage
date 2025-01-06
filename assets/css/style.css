@@ -697,8 +697,8 @@ button {
   color: #ffffff;
   padding: 0;
   position: relative;
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
 }
 .navbar-light .navbar-nav .nav-item .nav-link:hover,
 .navbar-light .navbar-nav .nav-item .nav-link:focus,
