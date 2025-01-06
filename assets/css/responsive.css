@@ -410,8 +410,11 @@
     margin-bottom: 50px;
   }
   .download-content .download-title h2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 18px;
+  }
+  br{
+    display:none;
   }
   .download-content .download-links {
     text-align: left;
