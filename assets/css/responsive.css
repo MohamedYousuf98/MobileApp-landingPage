@@ -535,6 +535,19 @@
   .agency-single-services-card img {
     width: 100% !important;
   }
+  .agency-single-services-card {
+    height: auto;
+  }
+  .services-image-slider {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .services-content {
+    text-align: center;
+  }
+  .services-content .icon {
+    text-align: center !important;
+  }
   .services-slider.owl-theme .owl-nav [class*="owl-"] {
     right: 0;
   }
@@ -2282,9 +2295,7 @@
   .agency-single-services-card .services-content h3 {
     font-size: 20px;
   }
-  .agency-single-services-card img {
-    width: 100% !important;
-  }
+
   .services-slider.owl-theme .owl-nav [class*="owl-"] {
     right: 0;
   }
@@ -3782,9 +3793,7 @@
   .agency-single-services-card .services-content p {
     margin-bottom: 10px;
   }
-  .agency-single-services-card img {
-    width: 100% !important;
-  }
+
   .services-slider.owl-theme .owl-nav [class*="owl-"] {
     right: 0;
   }
@@ -4975,9 +4984,7 @@
     margin-bottom: 8px;
     font-size: 13px;
   }
-  .agency-single-services-card img {
-    width: 100% !important;
-  }
+
   .agency-choose-content .agency-choose-title h2 {
     font-size: 36px;
   }
