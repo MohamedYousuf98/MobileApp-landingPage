@@ -214,21 +214,26 @@ button {
   position: relative;
 }
 .app-section-title span {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-weight: 500;
-}
-.app-section-title h2 {
-  font-size: 30px;
-  font-family: "Mulish", sans-serif;
-  color: #181c27;
+  font-weight: 600;
 }
 .app-section-title h5 {
+  font-size: 20px;
+  font-family: "Mulish", sans-serif;
+  color: #181c27;
+  font-weight: 500;
   line-height: 1.7;
+}
+.app-section-title h3 {
+  font-size: 27px;
+  font-family: "Mulish", sans-serif;
+  color: #181c27;
+  font-weight: 500;
 }
 
 .agency-section-title {
@@ -238,26 +243,24 @@ button {
   position: relative;
 }
 .agency-section-title span {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 .agency-section-title h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
-  display: inline-block;
-  color: #e97176;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  font-family: "Mulish", sans-serif;
+  color: #181c27;
   font-weight: 500;
+  font-size: 24px;
 }
 .agency-section-title h5 {
-  line-height: 1.4;
   font-size: 24px;
+  font-weight: 400;
+  color: #9ca3af;
 }
 
 .consulting-section-title {
@@ -267,18 +270,19 @@ button {
   position: relative;
 }
 .consulting-section-title span {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 .consulting-section-title h2 {
-  font-size: 30px;
+  font-size: 27px;
   font-family: "Mulish", sans-serif;
   color: #181c27;
+  font-weight: 500;
 }
 .consulting-section-title::before {
   position: absolute;
@@ -411,18 +415,19 @@ button {
   margin: -5px auto 40px auto;
 }
 .exchange-section-title span {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
   letter-spacing: 3px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 .exchange-section-title h2 {
-  font-size: 30px;
+  font-size: 27px;
   font-family: "Mulish", sans-serif;
   color: #181c27;
+  font-weight: 500;
 }
 .exchange-section-title.style2 h2 {
   color: #ffffff;
@@ -3223,8 +3228,15 @@ Go To Top Style
   position: absolute;
   left: 0;
   top: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
   transform: translateY(-50%);
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
 }
+
 .app-reviews-box .clients-profile h3 {
   font-family: "Roboto", sans-serif;
   font-size: 22px;
@@ -3345,6 +3357,9 @@ Go To Top Style
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+}
+.download-content p {
+  font-size: 22px;
 }
 .download-content p {
   margin-bottom: 30px;
@@ -3932,7 +3947,7 @@ Go To Top Style
 }
 .agency-single-services-card .services-content .read-btn i {
   position: absolute;
-  right: 0;
+  margin-left: 7px;
   top: 2px;
 }
 .agency-single-services-card .services-shape-1 {
@@ -5210,10 +5225,16 @@ Go To Top Style
 
 .services-img-projects {
   height: 100%;
-  width: 30%;
 }
 
 .services-img-projects img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  display: block;
+  border-radius: 10px;
+}
+.services-image-slider img {
   width: 100%;
   height: 100%;
   object-fit: fill;
@@ -5257,6 +5278,10 @@ Go To Top Style
 .services-img img {
   margin: 15px;
 }
+.services-image-slider img {
+  margin: 15px;
+}
+
 .consulting-services-card .services-content {
   padding: 20px;
   padding-top: 20px;

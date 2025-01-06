@@ -53,13 +53,26 @@
   .sass-default-btn {
     padding: 10px 20px;
   }
+  .services-img-projects img {
+    height: auto;
+    margin-top: 30px;
+  }
+  .services-img-projects {
+    height: 100%;
+    width: 30%;
+  }
+
   .app-default-btn {
     padding: 10px 20px;
     font-size: 14px;
   }
-  .consulting-default-btn {
+  .services-img-slider .consulting-default-btn {
     padding: 10px 20px;
     font-size: 14px;
+  }
+  .choose-img {
+    width: 50%;
+    margin: 0 auto;
   }
   .go-top {
     width: 35px;
@@ -741,6 +754,7 @@
     font-size: 18px;
     margin-bottom: 13px;
   }
+
   .consulting-services-card .services-content p {
     margin-bottom: 13px;
   }
