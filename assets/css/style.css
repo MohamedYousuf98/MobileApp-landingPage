@@ -218,8 +218,7 @@ button {
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  letter-spacing: 1px;
   font-weight: 600;
 }
 .app-section-title h5 {
@@ -247,8 +246,7 @@ button {
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  letter-spacing: 1px;
   font-weight: 600;
 }
 .agency-section-title h4 {
@@ -258,9 +256,9 @@ button {
   font-size: 24px;
 }
 .agency-section-title h5 {
-  font-size: 20px;
-  font-weight: 400;
-  color: #9ca3af;
+  color: #181c27;
+  font-weight: 500;
+  font-size: 24px;
 }
 
 .consulting-section-title {
@@ -419,7 +417,7 @@ button {
   margin-bottom: 10px;
   display: inline-block;
   color: #e97176;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -3178,7 +3176,7 @@ Go To Top Style
   margin-bottom: 10px;
 }
 .app-reviews-section h2 {
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
 }
@@ -3352,11 +3350,15 @@ Go To Top Style
   display: inline-block;
   margin-bottom: 10px;
 }
+.download-title {
+  margin-top: 50px;
+}
 .download-content .download-title h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 30px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+  font-weight: 600;
 }
 .download-content p {
   font-size: 22px;
@@ -5029,7 +5031,7 @@ Go To Top Style
   border-radius: 10px;
 }
 .features-content p {
-  font-size: 16px;
+  font-size: 14px;
   color: #555555;
   font-family: "Poppins", sans-serif;
   line-height: 1.8;
@@ -8298,7 +8300,7 @@ Go To Top Style
 .currency-coin-sell-content .coin-sell-title span {
   font-size: 16px;
   color: #0b6dff;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 500;
   display: inline-block;
