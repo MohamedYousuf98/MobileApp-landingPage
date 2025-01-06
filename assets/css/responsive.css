@@ -546,7 +546,7 @@
     text-align: center;
   }
   .services-content .icon {
-    text-align: center !important;
+    margin: 0 auto;
   }
   .services-slider.owl-theme .owl-nav [class*="owl-"] {
     right: 0;
