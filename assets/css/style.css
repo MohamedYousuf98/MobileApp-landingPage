@@ -1571,7 +1571,7 @@ button {
 
 .app-banner-area {
   background-image: url(../images/banner/banner-bg-2.png);
-  background-color: #36234b;
+  background: linear-gradient(to bottom, #232932, #1c1c20);
   padding-top: 100px;
   position: relative;
 }
@@ -2411,7 +2411,7 @@ button {
   display: inline-block;
   text-align: center;
   font-size: 20px;
-  color:#000;
+  color: #000;
   transition: all ease 0.5s;
 }
 .logo-area .social-links ul li a:hover {
@@ -3287,7 +3287,7 @@ Go To Top Style
 /*Download Style
 ======================================================*/
 .app-download-area {
-  background-color: #36234b;
+  background: linear-gradient(to top, #232932, #1c1c20);
   position: relative;
   z-index: 1;
 }
