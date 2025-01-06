@@ -328,7 +328,7 @@
   /*App Home
   ======================================================*/
   .app-banner-area {
-    padding-top: 130px;
+    padding-top: 70px;
   }
   .app-banner-content h1 {
     font-size: 30px;
@@ -5535,5 +5535,12 @@
   .navbar-light.nav-style11 .navbar-toggler {
     background-color: #0797ff;
     border-color: #0797ff;
+  }
+  .app-banner-img img {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 80px;
   }
 } /*# sourceMappingURL=responsive.css.map */
