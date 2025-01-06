@@ -941,7 +941,7 @@ button {
   height: 100%;
   z-index: 999999;
   overflow: hidden;
-  background: #19191b;
+  background: linear-gradient(to bottom, #232932, #1c1c20);
 }
 .preloader .loader {
   display: block;
@@ -953,7 +953,7 @@ button {
   margin: -80px 0 0 -75px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #0797ff;
+  border-top-color: #e97176;
   animation: spin 1.7s linear infinite;
   z-index: 11;
 }
@@ -978,7 +978,7 @@ button {
   bottom: 15px;
   border-radius: 50%;
   border: 7px solid transparent;
-  border-top-color: #0797ff;
+  border-top-color: #e97176;
   animation: spin 1s linear infinite;
 }
 
